@@ -1,8 +1,8 @@
 #' @importFrom Rcpp evalCpp
-#' @useDynLib rqPen, .registration=TRUE
+#' @useDynLib rcpptest, .registration=TRUE
 NULL 
 
-#' rqPen: A package for estimating quantile regression models using penalized objective functions.
+#' rcpptest: A package for estimating quantile regression models using penalized objective functions.
 #' 
 #' The package estimates a quantile regression model using LASSO, Adaptive LASSO, SCAD, MCP, elastic net, 
 #' and their group counterparts, with the exception of elastic net for which there is no group penalty implementation.
